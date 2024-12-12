@@ -17,6 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+#Importar las vistas del proyecto
+from . import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    #inicio
+    path('', views.v_inicio, name="u_inicio"),
 ]

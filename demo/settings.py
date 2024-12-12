@@ -39,11 +39,12 @@ BASE_APPS = [
 ]
 
 THIRD_APPS = [
-    
+    'adminlte3',
+    'adminlte3_theme',
 ]
 
 LOCAL_APPS = [
-    
+    'apps.lista',
 ]
 
 INSTALLED_APPS = THIRD_APPS + BASE_APPS + LOCAL_APPS
